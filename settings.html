@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Home Page</title>
+        <title>Settings</title>
         <link rel="stylesheet"
               href="https://fonts.googleapis.com/css?family=Roboto+Mono">
         <style>
@@ -29,18 +29,6 @@
                 color: white;
             }
             
-            .panel {
-               margin: 200px;
-                width: 400px;
-                box-sizing: border-box;
-                padding: 20px;
-                background-color: dimgray;
-                color: lemonchiffon;
-                border-radius: 6px;
-                display: block;
-                transition: 0.3s;
-            }
-            
             ::selection {
                 background-color: darkslategray;
                 color: dodgerblue;
@@ -56,22 +44,15 @@
                     width: 11%;
                     text-align: start;
                     position: absolute;
-                    top: 16%;
+                    top: 6%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     mix-blend-mode: screen;
             }
             
-            .panel:hover {
-                background-color: gray;
-                color: antiquewhite;
-                box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-            }
-            .panel:active {}
         </style>
     </head>
 <body>
-    
     <div class="topnav">
         <a class="active" href="./index.html">Home</a>
         <a class="active" href="./about.html">About</a>
@@ -79,12 +60,8 @@
     </div>
     
     <div class="image-container">
-        <div class="text">GTA V Snippets</div>
+        <div class="text">Settings</div>
     </div>
     
-    <a href= "https://github.com/HTML-svg/gta-delivery-mod" target="_blank" style="text-decoration:none" class = "panel">
-        <h2>Delivery Mod</h2>
-        <p>This mod allows the player to steal a package from Michael, to then deliver it to Lester.</p>
-    </a>
 </body>
 </html>
