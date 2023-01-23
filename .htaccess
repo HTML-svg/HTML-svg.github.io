@@ -17,6 +17,6 @@ RewriteCond %{THE_REQUEST} \.html
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 </IfModule>
 
-DirectoryIndex home.html
+DirectoryIndex home.html index.htm
 
 ErrorDocument 404 /404.html
